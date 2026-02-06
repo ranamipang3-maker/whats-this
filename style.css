@@ -85,3 +85,35 @@ button {
 h1{
   color: #ff5e8e;
 }
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  button {
+    width: 80vw;
+    max-width: 280px;
+    font-size: 18px;
+    padding: 14px 0;
+  }
+
+  #noBtn {
+    position: fixed;
+  }
+
+}
